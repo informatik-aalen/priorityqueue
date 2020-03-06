@@ -12,7 +12,7 @@ Fügt eine Id mit meiner Priorität ein.
 
 ### int  pop(int & id, double & priority);
 
-List (zerstörend) die als nächstes anstehende Id zusammen mit ihrer Priorität. Gibt 0 zurück,
+Liest (zerstörend) die als nächstes anstehende Id zusammen mit ihrer Priorität. Gibt 0 zurück,
 im Fehlerfall (Priorityqueue ist leer) aber 1.
 
 ### void print();
