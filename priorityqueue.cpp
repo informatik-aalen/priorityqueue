@@ -23,7 +23,7 @@ void priorityqueue::push(int id, double priority, double priority_old) {
 	pqt::iterator i = s.find(priority_old);
 	if (i != s.end()) {
 		st * tmp = &(i->second);
-		st::iterator j = tmp->find(priority_old);
+		st::iterator j = tmp->find(id);
 		tmp->erase(*j);
 		if (tmp->begin() == tmp->end())
 			s.erase(i);
